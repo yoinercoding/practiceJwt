@@ -1,10 +1,10 @@
-package com.example.demo;
+package ybello.demojwt;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ApplicationTests {
+class DemoJwtApplicationTests {
 
 	@Test
 	void contextLoads() {
