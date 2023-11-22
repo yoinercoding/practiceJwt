@@ -6,7 +6,6 @@ import org.springframework.security.authentication.UsernamePasswordAuthenticatio
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import ybello.demojwt.jwt.JwtService;
 import ybello.demojwt.user.Role;
 import ybello.demojwt.user.User;
@@ -45,6 +44,5 @@ public class AuthService {
         return AuthResponse.builder()
                 .token(jwtService.getToken(user))
                 .build();
-
     }
 }
